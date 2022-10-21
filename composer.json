@@ -1,0 +1,19 @@
+{
+    "name": "jmg/app",
+    "description": "app",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Jmg\\App\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Jean-Marc Guilaume",
+            "email": "jeanmarc.guillaumee@gmail.com"
+        }
+    ],
+    "require": {
+        "gipetto/cowsay": "^1.1"
+    }
+}
